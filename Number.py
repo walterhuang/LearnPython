@@ -8,3 +8,6 @@ print(first_num + second_num)
 
 print(int(first_num) + int(second_num))
 print(float(first_num) + float(second_num))
+
+pi = 3.14159
+print(pi)
