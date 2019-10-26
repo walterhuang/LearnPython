@@ -26,5 +26,5 @@ print('Second: ' + str(today.second))
 #######
 
 birthday = input('When is your birthday (dd/mm/yyyy)? ')
-birthday_date = datetime.strptime(birthday, '%d%m%Y')
+birthday_date = datetime.strptime(birthday, '%d/%m/%Y')
 print('Birthday: ' + str(birthday_date))
